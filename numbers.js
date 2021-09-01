@@ -132,6 +132,3 @@ function arrayNUglyNumbers(n) {
    Time Complexity for isUgly: O(log2(n))
    Time Complexity for arrayNUglyNumbers: O(n(log2(n)))
 */
-
-result = arrayNUglyNumbers(20)
-console.log(result)
