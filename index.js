@@ -1,10 +1,11 @@
+import { isParenthesisValid } from "./ParenthesisValidation.js";
 import QueueStack from "./QueueStack.js";
+import { sortableStack } from "./sortableStack.js";
 import TwoStackQueue from "./TwoStackQueue.js";
 
 
-let queue = new QueueStack()
+var ss = new sortableStack(10);
+console.log(ss);
 
-queue.push(1)
-queue.push(2)
-queue.push(3)
-console.log(queue)
+ss.sortStackDescending();
+console.log(ss.sortedStack);
