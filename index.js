@@ -1,11 +1,11 @@
-import { isParenthesisValid } from "./ParenthesisValidation.js";
-import QueueStack from "./QueueStack.js";
-import { sortableStack } from "./sortableStack.js";
-import TwoStackQueue from "./TwoStackQueue.js";
+import DoublyLinkedList from "./DoublyLinkedList.js";
+import SinglyLinkedList from "./LinkedList.js";
 
-
-var ss = new sortableStack(10);
-console.log(ss);
-
-ss.sortStackDescending();
-console.log(ss.sortedStack);
+var sll1 = new DoublyLinkedList();
+ sll1.addAtFront(1);
+ sll1.insertAtTail(2);
+ sll1.addAtFront(7);
+ sll1.findStartingHead(2);
+ console.log(sll1)
+ console.log(
+    sll1.findStartingTail(2))
