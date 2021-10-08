@@ -59,7 +59,6 @@ SinglyLinkedList.prototype.remove = function (value) {
   }
 };
 
-
 SinglyLinkedList.prototype.find = function (value) {
   let currentHead = this.head;
   while (currentHead.next) {
