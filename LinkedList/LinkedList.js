@@ -24,7 +24,7 @@ SinglyLinkedList.prototype.insert = function (value) {
   this.size++;
 };
 
-//Deletion by value
+///Deletion by value
 
 SinglyLinkedList.prototype.remove = function (value) {
   let currentHead = this.head;
